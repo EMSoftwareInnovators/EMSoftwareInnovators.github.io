@@ -1,0 +1,202 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px; 
+    color: #f4f4f4;
+    background-color: #333;
+    text-align: center;
+}
+
+#services img {
+    width: 40%;
+    float: right;
+}
+
+#services a:link, #services a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+footer a:link, footer a:visited {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+/* Beginning of Navbar CSS */
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.topnav .active {
+    background-color: #35424a;
+}
+
+/* End of Navbar CSS */
+/* Beginning of Container and Showcase CSS */
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+#showcase
+{
+    background:url('/img/cropPhoto.jpg') no-repeat center;
+    width: 100%;
+    min-height: 400px;
+    z-index: 0;
+}
+#showcase h1
+{
+    margin-top: 20px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+    text-align: center;
+}
+#showcase p
+{
+    font-size: 20px;
+    color: #f4f4f4;
+    text-align: center;
+}
+#boxes
+{
+    margin: 20px
+}
+#boxes .box
+{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#boxes .box img
+{
+    width: 90px;
+}
+/* End of Container and Showcase CSS */
+/* Beginning of Sidebar CSS */
+
+aside#sidebar
+{
+    float: right;
+    width: 30%;
+}
+article#main-col
+{
+    float: left;
+    width: 65%;
+}
+/* End of Sidebar CSS */
+
+.dark
+{
+    padding: 15px;
+    background: #35424a;
+    color: #f4f4f4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul#services li
+{
+    list-style: none;
+    padding: 25px;
+    border: #cccccc solid 1px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6
+}
+@media(max-width: 768px)
+{
+    header #branding, header nav, header nav li,
+    {
+        float: none;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #showcase h1
+    {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    #boxes .box, article#main-col, aside#sidebar
+    {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #111;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

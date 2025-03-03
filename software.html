@@ -52,7 +52,14 @@
             </div>
         </section>
         <footer>
-            <p> EM Software Innovators, Copyright &copy;2018</p>
+             <p>Robert Tammaro, Copyright &copy 2021-<span id="date"></span></p>
         </footer>
+
+        <script>
+        var date = document.getElementById("date");
+        var thisYear = new Date();
+        thisYear = thisYear.getFullYear();
+        date.innerHTML = thisYear;
+    </script>
     </body>
 </html>

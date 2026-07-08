@@ -21,6 +21,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -31,41 +34,15 @@
                     <article id="main-col">
                         <ul id="services">
                             <li>
-                                <h1>Contact me</h1>
-                                <form method="POST" name="contactform" action="contact-form-handler.php"> 
-                                    <p>
-                                        <label for='name'>Your Name:</label> <br>
-                                        <input type="text" name="name">
-                                    </p>
-                                    <p>
-                                        <label for='email'>Email Address:</label> <br>
-                                        <input type="text" name="email"> <br>
-                                    </p>
-                                    <p>
-                                        <label for='message'>Message:</label> <br>
-                                        <textarea name="message"></textarea>
-                                    </p>
-                                    <input type="submit" value="Submit"><br>
-                                </form>
-                                <script language="JavaScript">
-                                    // Code for validating the form
-                                    var frmvalidator  = new Validator("contactform");
-                                    frmvalidator.addValidation("name","req","Please provide your name"); 
-                                    frmvalidator.addValidation("email","req","Please provide your email"); 
-                                    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-                                </script>
+                                <h1>Contact Information</h1>
+                                <p>Email Address: roberttammaro2015@gmail.com</p>
+                                <p>Phone Number: (706)-871-7638</p>
+                                <p>(Please leave a voicemail or text)</p>
                             </li>
                         </ul>
                     </article>
-                    <aside id="sidebar">
-                        <div class="dark">
-                            <h3>Contact Information</h3>
-                            <p>Please feel free to send me an email here: roberttammaro2015@gmail.com</p>
-                            <p>Additionally, you can contact me by leaving a voicemail at this number: (706)-871-7638</p>
-                        </div>
-                    </aside>
                 </div>
-        </div>
+            </div>
         </section>
         <footer>
              <p>Robert Tammaro, Copyright &copy 2021-<span id="date"></span></p>
